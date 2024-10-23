@@ -1,0 +1,32 @@
+{
+  "name": "url-shortner",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon ./src/index.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@eslint/js": "^9.12.0",
+    "@types/http-errors": "^2.0.4",
+    "@types/node": "^22.7.5",
+    "@types/validatorjs": "^3.15.5",
+    "eslint": "^9.12.0",
+    "globals": "^15.11.0",
+    "nodemon": "^3.1.7",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.6.3",
+    "typescript-eslint": "^8.8.1"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "http-errors": "^2.0.0",
+    "knex": "^3.1.0",
+    "pg": "^8.13.0",
+    "url-shortner": "file:",
+    "validatorjs": "^3.22.1"
+  }
+}
